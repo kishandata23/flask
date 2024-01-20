@@ -71,15 +71,63 @@ href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
     <div class="container">
-        <h1>Flask Project List</h1>
-        <ul>
-            <li><a href=""> Guess the number</a></li>
-            <li>File operation comming soon </li>
-        </ul>
-    </div>   
-    <div>
-        <h3>Till then check my Project here ➡️ <a href="https://kishandata23.github.io/projects/" target="_blank" rel="noopener noreferrer">All Projects</a></h3>
-    </div>              
+ 
+                <div class="content">
+                    <h1 style="text-align: center">Guess the Number Game</h1>
+                <marquee behavior="" direction="">Contact me to discuss the complex version of this project</marquee>
+                    <div class="form">
+                        <form  method="POST">
+                        <!-- <label for="tries">Enter the Number of tries</label> &nbsp
+                            <select id="tries" name="tries">
+                                <option value="5">5</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                                <option value="13">13</option>
+                                <option value="15">15</option>
+                              </select> -->
+                             <br>
+                            <label for="user_number">Enter the Number</label> &nbsp
+                             <input type="text" name="user_number" id="user_number" min="0000" max="9999">
+                             <button type="submit">Submit</button>
+                             <br>
+                             <p>{{ result }}<p>
+
+                <!-- <select id="operation" name="operation">
+                  <option value="add">add</option>
+                  <option value="subtract">subtract</option>
+                  <option value="multiply">multiply</option>
+                  <option value="divide">divide</option>
+                  <option value="log">log</option>
+                </select> -->
+                             <!-- <input type="text" name="num1" id="num1">
+                            <input type="text" name="num2" id="num2"> 
+                            <input type="submit" value="Check"> -->
+
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+ 
+        <!--<div class="rules">
+            <h3>Note:-</h3>
+            <p>
+                <ul>
+                    <li>Give the 4 digit number</li>
+                    <li>Numbers should not be repeated. </li>
+                    <ul><li>8986 is invalid</li>
+                    <li>1693 is valid</li></ul>
+                    <li>enter the number of tries less than 15</li>
+                </ul>
+            </p>
+        </div> -->
+    </div>
+           
+    
     <footer>
 
 
